@@ -1,0 +1,14 @@
+# OpenMemory - IDE/Assistant specific rules
+.cursor/rules/openmemory.mdc
+
+# Dependencies & build
+node_modules/
+.next/
+out/
+
+# Env (never commit secrets)
+.env
+.env*.local
+
+# OS
+.DS_Store
